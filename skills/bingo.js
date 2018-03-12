@@ -13,8 +13,7 @@ module.exports = function (controller) {
         fs.readFile(words, function(err, data){
           if(err) throw err;
           var lines = data.split('\n');
-
-       })
+       });
    }
 
         var text = "Corporate BS BINGO!! Let's Play!";
@@ -24,5 +23,4 @@ module.exports = function (controller) {
         bot.reply(message, text);
 
     });
-
 }
