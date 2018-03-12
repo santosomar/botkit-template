@@ -9,8 +9,8 @@ module.exports = function (controller) {
 
     controller.hears([/^bingo$/], 'direct_message,direct_mention', function (bot, message) {
 
-      function getRandomLine(filename){
-        fs.readFile(filename, function(err, data){
+      function getRandomLine(words){
+        fs.readFile(words, function(err, data){
           if(err) throw err;
           var lines = data.split('\n');
 
