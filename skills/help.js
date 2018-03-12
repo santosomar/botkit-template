@@ -5,7 +5,7 @@ module.exports = function (controller) {
 
     controller.hears([/^help$/], 'direct_message,direct_mention', function (bot, message) {
         var text = "Here are my skills:";
-        text += "\n- " + bot.appendMention(message, "color") + ": ask to pick a random color";
+        text += "\n- " + bot.appendMention(message, "color") + ": this may not work";
         text += "\n- " + bot.appendMention(message, "restricted") + ": let a user pick a color among a set of options";
         text += "\n- " + bot.appendMention(message, "storage") + ": store picked color as a user preference";
         text += "\n- " + bot.appendMention(message, "threads") + ": branch to another thread";
