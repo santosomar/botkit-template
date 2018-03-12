@@ -81,8 +81,7 @@ initiate
 innovate
 integrate
 iterate
-leverage existing
-leverage other's
+leverage
 maintain
 matrix
 maximize
@@ -121,7 +120,7 @@ strategize
 streamline
 supply
 syndicate
-synergize
+synergy
 synthesize
 target
 transform
@@ -182,7 +181,7 @@ empowered
 enabled
 end-to-end
 enterprise
-enterprise-wide
+profitable
 equity invested
 error-free
 ethical
@@ -379,9 +378,9 @@ technology
 testing procedures
 total linkage
 users
-value
-vortals
+value-add
 web-readiness
 web services
 wins
 virtualization
+api
