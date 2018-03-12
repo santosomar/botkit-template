@@ -37,7 +37,8 @@ architect
 benchmark
 brand
 build
-cloudify
+cloud
+bitcoin
 communicate
 conceptualize
 coordinate
@@ -47,7 +48,7 @@ customize
 deliver
 deploy
 develop
-dinintermediate disseminate
+disseminate
 drive
 embrace
 e-enable
@@ -56,8 +57,10 @@ enable
 engage
 engineer
 enhance
-envisioneer
-evisculate
+enumerate
+cybersecurity
+exploit
+vulnerability
 evolve
 expedite
 exploit
@@ -86,7 +89,7 @@ maximize
 mesh
 monetize
 morph
-myocardinate
+productivity
 negotiate
 network
 optimize
@@ -96,7 +99,7 @@ plagiarize
 pontificate
 predominate
 procrastinate
-productivate
+operationalize
 productize
 promote
 provide access to
