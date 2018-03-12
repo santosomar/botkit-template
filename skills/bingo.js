@@ -4,11 +4,11 @@
 module.exports = function (controller) {
 
     controller.hears([/^bingo$/], 'direct_message,direct_mention', function (bot, message) {
-      //note this may be async
-       var data = "testing";
+
+
         var text = "C O R P   B S   B I N G O ! ! !";
         text += "\n- " + "========================";
-        text += "\n- " + data ;
+        text += "\n- " + "testing some datadata" ;
 
         bot.reply(message, text);
 
