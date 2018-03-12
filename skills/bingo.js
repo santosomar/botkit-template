@@ -13,16 +13,16 @@ module.exports = function (controller) {
         fs.readFile(filename, function(err, data){
           if(err) throw err;
           var lines = data.split('\n');
-          /*do something with */
-          data= lines[Math.floor(Math.random()*lines.length)];
+
        })
+   }
 
         var text = "Corporate BS BINGO!! Let's Play!";
         text += "\n" + "========================";
-        text += "\n" + data ;
+        text += "\n" + lines ;
 
         bot.reply(message, text);
 
     });
-   }
+
 }
