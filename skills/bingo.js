@@ -394,15 +394,32 @@ module.exports = function (controller) {
         'wins',
         'virtualization'
       ];
-      var data1= Math.floor(Math.random()*textArray.length);
-      var data2= Math.floor(Math.random()*textArray.length);
-      var data3= Math.floor(Math.random()*textArray.length);
-      var data4= Math.floor(Math.random()*textArray.length);
-      var data5= Math.floor(Math.random()*textArray.length);
-      var data6= Math.floor(Math.random()*textArray.length);
-      var data7= Math.floor(Math.random()*textArray.length);
-      var data8= Math.floor(Math.random()*textArray.length);
-      var data9= Math.floor(Math.random()*textArray.length);
+      var data1_index= Math.floor(Math.random()*textArray.length);
+      var data1 = textArray[data1_index];
+
+      var data2_index= Math.floor(Math.random()*textArray.length);
+      var data2 = textArray[data2_index];
+
+      var data3_index= Math.floor(Math.random()*textArray.length);
+      var data3 = textArray[data3_index];
+
+      var data4_index= Math.floor(Math.random()*textArray.length);
+      var data4 = textArray[data4_index];
+
+      var data5_index= Math.floor(Math.random()*textArray.length);
+      var data5 = textArray[data5_index];
+
+      var data6_index= Math.floor(Math.random()*textArray.length);
+      var data6 = textArray[data6_index];
+
+      var data7_index= Math.floor(Math.random()*textArray.length);
+      var data7 = textArray[data7_index];
+
+      var data8_index= Math.floor(Math.random()*textArray.length);
+      var data8 = textArray[data8_index];
+
+      var data9_index= Math.floor(Math.random()*textArray.length);
+      var data9 = textArray[data9_index];
 
         var text = "Corporate BS BINGO!! Let's Play!";
         text += "\n" + "========================";
