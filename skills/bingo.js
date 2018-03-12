@@ -423,7 +423,7 @@ module.exports = function (controller) {
 
         var text = "Corporate BS BINGO!! Let's Play!";
         text += "\n" + "========================";
-        text += "\n" + " | BINGO | CORP | BS | ";
+        text += "\n" + "\n" + " | BINGO | CORP | BS | ";
         text += "\n" + " | --- | --- | --- | ";
         text += "\n" + " | " + data1 + " | " + data2 + " | " + data3 + " | ";
         text += "\n" + " | " + data4 + " | " + data5 + " | " + data6 + " | ";
