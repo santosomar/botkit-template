@@ -362,7 +362,7 @@ module.exports = function (controller) {
         'platforms',
         'portals',
         'potentialities',
-        'rocess improvements',
+        'process improvements',
         'processes',
         'products',
         'quality vectors',
@@ -423,9 +423,9 @@ module.exports = function (controller) {
 
         var text = "Corporate BS BINGO!! Let's Play!";
         text += "\n" + "========================";
-        text += "\n" + " |" + data1 + " | " + data2 + "| " + data3 + " | ";
-        text += "\n" + " |" + data4 + " | " + data5 + "| " + data6 + " | ";
-        text += "\n" + " |" + data7 + " | " + data8 + "| " + data9 + " | ";
+        text += "\n" + " | " + data1 + " | " + data2 + " | " + data3 + " | ";
+        text += "\n" + " | " + data4 + " | " + data5 + " | " + data6 + " | ";
+        text += "\n" + " | " + data7 + " | " + data8 + " | " + data9 + " | ";
 
         bot.reply(message, text);
 
