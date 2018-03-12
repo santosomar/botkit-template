@@ -7,7 +7,7 @@ module.exports = function (controller) {
         var text = "Don't abuse me... Here are my skills:";
         text += "\n- " + bot.appendMention(message, "bingo") + ": this will generate a random corporate BS bingo card";
         text += "\n- " + bot.appendMention(message, "bs") + ": (coming soon) Generates random Corporate BS statement";
-        text += "\n- " + bot.appendMention(message, "help") + ": you are already here dumbass!";
+        text += "\n- " + bot.appendMention(message, "help") + ": you are already here dummy!!!";
         bot.reply(message, text);
     });
 }
