@@ -423,23 +423,9 @@ module.exports = function (controller) {
 
         var text = "Corporate BS BINGO!! Let's Play!";
         text += "\n" + "========================";
-        text += "\n" + " " + data1 ;
-        text += "\n" + "--------";
-        text += "\n" + " " + data2 ;
-        text += "\n" + "--------";
-        text += "\n" + " " + data3 ;
-        text += "\n" + "--------";
-        text += "\n" + " " + data4 ;
-        text += "\n" + "--------";
-        text += "\n" + " " + data5 ;
-        text += "\n" + "--------";
-        text += "\n" + " " + data6 ;
-        text += "\n" + "--------";
-        text += "\n" + " " + data7 ;
-        text += "\n" + "--------";
-        text += "\n" + " " + data8 ;
-        text += "\n" + "--------";
-        text += "\n" + " " + data9 ;
+        text += "\n" + " |" + data1 + " | " + data2 + "| " + data3 + " | ";
+        text += "\n" + " |" + data4 + " | " + data5 + "| " + data6 + " | ";
+        text += "\n" + " |" + data7 + " | " + data8 + "| " + data9 + " | ";
 
         bot.reply(message, text);
 
