@@ -1,5 +1,5 @@
 {
-  "description": "Botkit template for Cisco Spark",
+  "description": "BS Bingo Generator",
   "version": "0.6.0",
   "main": "bot.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "botkit",
     "devnet"
   ],
-  "author": "Stève Sfartz (Cisco DevNet) <stsfartz@cisco.com>",
+  "author": "Omar Santos <os@cisco.com>",
   "license": "MIT",
   "dependencies": {
     "botkit": "0.6.0",
