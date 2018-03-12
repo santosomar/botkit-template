@@ -3,24 +3,26 @@
 //
 
 //note this will be async
-function getRandomLine(filename){
-  fs.readFile(filename, function(err, data){
-    if(err) throw err;
-    var lines = data.split('\n');
-    /*do something with */ lines[Math.floor(Math.random()*lines.length)];
- })
-}
+
 
 module.exports = function (controller) {
 
     controller.hears([/^bingo$/], 'direct_message,direct_mention', function (bot, message) {
 
-        var data = "this is a test";
+      function getRandomLine(filename){
+        fs.readFile(filename, function(err, data){
+          if(err) throw err;
+          var lines = data.split('\n');
+          /*do something with */
+          data= lines[Math.floor(Math.random()*lines.length)];
+       })
+
         var text = "Corporate BS BINGO!! Let's Play!";
         text += "\n" + "========================";
-        text += "\n" + lines ;
+        text += "\n" + data ;
 
         bot.reply(message, text);
 
     });
+   }
 }
