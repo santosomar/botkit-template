@@ -1,5 +1,5 @@
 {
-  "description": "BS Bingo Generator",
+  "description": "Corporate BS Bingo Generator",
   "version": "0.6.0",
   "main": "bot.js",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "keywords": [
     "ciscospark",
-    "botkit",
+    "bot",
     "devnet"
   ],
   "author": "Omar Santos <os@cisco.com>",
