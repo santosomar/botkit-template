@@ -7,7 +7,7 @@
 
 module.exports = function (controller) {
 
-    controller.hears([/^bingo$/], 'direct_message,direct_mention', function (bot, message) {
+    controller.hears([/^xxx$/], 'direct_message,direct_mention', function (bot, message) {
 
       var textArray = [
         'appropriately',
