@@ -381,6 +381,17 @@ module.exports = function (controller) {
         'storage',
         'supply chains',
         'synergy',
+        'CVE',
+        'CVSS',
+        'cross-site-scripting',
+        'buffer overflow',
+        'command and control',
+        'SQL injection',
+        'no SQL',
+        'omar sucks',
+        'chain of custody',
+        'vulnerability chaining',
+        'command injection',
         'systems',
         'technologies',
         'technology',
@@ -434,7 +445,7 @@ module.exports = function (controller) {
         text += "\n" + "* " + data7 + "\n" ;
         text += "\n" + "* " + data8 + "\n" ;
         text += "\n" + "* " + data9 + "\n" ;
-        text += "\n -- Ωr " 
+        text += "\n -- Ωr "
 
         bot.reply(message, text);
 
