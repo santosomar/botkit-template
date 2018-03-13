@@ -421,7 +421,7 @@ module.exports = function (controller) {
       var data9_index= Math.floor(Math.random()*textArray.length);
       var data9 = textArray[data9_index];
 
-      var text = "CORPORATE BS PALOOOZA!! Let's Play!";
+      var text = "CORPORATE BS BINGO!! Let's Play!";
         text += "\n" + "---";
         text += "\n" + "If you get three (3) of the following during a conference call, you win!";
         text += "\n" + " " ;
@@ -434,6 +434,7 @@ module.exports = function (controller) {
         text += "\n" + "* " + data7 + "\n" ;
         text += "\n" + "* " + data8 + "\n" ;
         text += "\n" + "* " + data9 + "\n" ;
+        text += "\n -- Ωr " 
 
         bot.reply(message, text);
 
