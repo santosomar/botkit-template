@@ -402,6 +402,8 @@ module.exports = function (controller) {
         'vortals',
         'web-readiness',
         'web services',
+        'enablement',
+        'acquisition',
         'wins',
         'virtualization'
       ];
