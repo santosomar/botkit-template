@@ -431,7 +431,7 @@ module.exports = function (controller) {
 
       var data9_index= Math.floor(Math.random()*textArray.length);
       var data9 = textArray[data9_index];
-      var welcome = `Hi <@personId:${event.actorId}>, so glad meeting you!`;
+      var welcome = ``<@personId:${event.actorId}>``;
 
       var text = "CORPORATE BS BINGO!! Let's Play!";
         text += "\n" + "---";
