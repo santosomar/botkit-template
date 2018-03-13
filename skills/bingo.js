@@ -421,9 +421,9 @@ module.exports = function (controller) {
       var data9_index= Math.floor(Math.random()*textArray.length);
       var data9 = textArray[data9_index];
 
-      var text = "Corporate BS BINGO!! Let's Play!";
+      var text = "CORPORATE BS PALOOOZA!! Let's Play!";
         text += "\n" + "---";
-        text += "\n" + "If you get three (3) of the following, you win!";
+        text += "\n" + "If you get three (3) of the following during a conference call, you win!";
         text += "\n" + " " ;
         text += "\n" + "* " + data1 + "\n" ;
         text += "\n" + "* " + data2 + "\n" ;
