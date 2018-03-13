@@ -421,12 +421,9 @@ module.exports = function (controller) {
       var data9_index= Math.floor(Math.random()*textArray.length);
       var data9 = textArray[data9_index];
 
-     var hello = {event.actorId};
-
-
-        var text = "Corporate BS BINGO!! Let's Play!";
+      var text = "Corporate BS BINGO!! Let's Play!";
         text += "\n" + "---";
-        text += "\n" + hello ;
+        text += "\n" + ;
         text += "\n" + "\n" + " | BINGO | CORP | BS | ";
         text += "\n" + " | --- | --- | --- | ";
         text += "\n" + " | " + data1 + " | " + data2 + " | " + data3 + " | ";
