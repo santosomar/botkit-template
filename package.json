@@ -13,7 +13,7 @@
   "author": "Omar Santos <os@cisco.com>",
   "license": "MIT",
   "dependencies": {
-    "botkit": "0.6.0",
+    "botkit": "0.7.5",
     "node-env-file": "0.1.8"
   },
   "repository": {
